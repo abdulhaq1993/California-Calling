@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+}
+header{
+    background-color: black;
+
+}
+header p:nth-last-of-type(3){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: ;
+    color: white;
+    padding-top: 4%;
+}
+.line{
+    width: 2px;
+    height: 40vh;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 auto 7vh;
+}
+header h1:nth-of-type(1){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 4em;
+    color: white;
+
+
+}
+header h2:nth-of-type(1){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -29px;
+    font-size: 4em;
+    color: white;
+
+}
+
+header p:nth-of-type(2){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: ;
+    font-size: ;
+    color: white;
+
+}
+header a{
+    position: absolute;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    width: 90px;
+    height: 40px;
+    right: 7%;
+    top: 95%;
+    padding-top: 20px;
+    padding-left: 45px;
+    background: black;
+    color: white;
+}
+header a:hover{
+    background: whitesmoke;
+    color: black;
+}
+header p:nth-of-type(3){
+    background: url(img/map.svg) right/cover no-repeat;
+    margin-top: 30%;
+    font-size: 7.5em;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+
+}
+header h5:nth-of-type(1){
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 1em;
+    color: white;
+
+}
+header h5:nth-of-type(2){
+    margin-left: 10%;
+    margin-top: ;
+    font-size: 1em;
+    color: white;
+
+}
+header h1:nth-of-type(2){
+    margin-top: 1%;
+    margin-left: 10.3%;
+    font-size: 4.5em;
+    color: white;
+
+}
+header h1:nth-of-type(3){
+    margin-top: 1%;
+    margin-left: 10.3%;
+    font-size: 4.5em;
+    color: white;
+
+}
+header h5:nth-of-type(3){
+    margin-left: 10%;
+    margin-top: ;
+    font-size: 1em;
+    color: white;
+
+}
+header h1:nth-of-type(4){
+    margin-top: 1%;
+    margin-left: 10.3%;
+    font-size: 4.5em;
+    color: white;
+
+}
+main div{
+    position: relative;
+    height: 60vh;
+}
+main div img{
+    position: absolute;
+    margin-top: -6%;
+    right: 5%;
+}
+main div img:nth-of-type(1){
+    z-index: 1;
+    top: 0;
+}
+main div img:nth-of-type(2){
+    z-index: 2;
+    top: 85%;
+    left: 5%;
+}
+main div img:nth-of-type(3){
+    z-index: 3;
+    top: 180%;
+    right: 0;
+}
+main div img:nth-of-type(4){
+    z-index: 4;
+    top: 250%;
+    left: 17%;
+}
+main div img:nth-of-type(5){
+    z-index: 5;
+    top: 290%;
+    right: 10%;
+}
+main div img:nth-of-type(6){
+    z-index: 6;
+    top: 360%;
+    left: 0%;
+}
+main div img:nth-of-type(7){
+    z-index: 7;
+    top: 440%;
+    right: 17%;
+}
+main h1{
+    font-size: 4.5em;
+    width: 27%;
+    position: absolute;
+    top: 330%;
+    left: 35%;
+}
+main p:nth-last-of-type(2){
+    font-size: 1em;
+    width: 27%;
+    position: absolute;
+    top: 353%;
+    left: 35%;
+}
+main p:nth-last-of-type(1){
+    font-size: 15px;
+    width: 27%;
+    position: absolute;
+    top: 490%;
+    left: 35%;
+}
+footer{
+    margin-top: 126%;
+    background: black;
+    color: white;
+    height: 120vh;
+    position: relative;
+}
+footer h1{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 1.5em;
+}
+footer h3{
+    position: absolute;
+    font-size: 3.5em;
+    width: 0;
+    left: 15%;
+   top: 24%;
+}
+footer p{
+    position: absolute;
+    top: 19%;
+    font-size: 1.5em;
+    width: 30%;
+    right: 20%;
+}
+footer h4{
+    position: absolute;
+    font-size: 1em;
+    top: 44%;
+    right: 39%;
+}
+footer img{
+    position: relative;
+    top: 30%;
+}
+footer img:nth-of-type(1){
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+footer img:nth-of-type(2){
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+footer img:nth-of-type(3){
+    width: 55%;
+    animation: rotate 8s infinite linear;
+    margin-left: 60%; 
+    margin-top: 17%;   
+}
+@keyframes rotate {
+    0%  {
+        transform: rotate(-360deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100% {
+        rotate: (-360deg);
+    }
+}
+article{
+    position: relative;
+}
+article h3{
+    position: absolute;
+    margin-top: 20%;
+    left: 15%;
+    font-size: 1.5em;
+}
+article h1{
+    position: absolute;
+    margin-top: 22%;
+    font-size: 4em;
+    width: 0;
+    left: 15%;
+}
+article p{
+    position: absolute;
+    margin-top: 20%;
+    font-size: 1.5em;
+    width: 30%;
+    right: 20%;
+}
+article h4{
+    position: absolute;
+    font-size: 1em;
+    margin-top: 32%;
+    right: 37%;
+}
+article img{
+    position: relative;
+}
+article img:nth-last-of-type(1){
+    position: absolute;
+    margin-top: 57%;
+    left: 26%;
+}
+article img:nth-last-of-type(2){
+    position: absolute;
+    margin-top: 47%;
+    right: 10%;
+}
+.last{
+    height: 80vh;
+    color: white;
+    position: relative;
+    background: black;
+    margin-top: 100%;
+}
+.last h3{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.last p{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 25%;
+    font-size: 1.5em;
+}
+.last a{
+    position: absolute;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    width: 90px;
+    height: 40px;
+    left: 8%;
+    top: 55%;
+    padding-top: 20px;
+    padding-left: 45px;
+    background: black;
+    color: white;
+}
+.last a:hover{
+    background: whitesmoke;
+    color: black;
+}
+.last h4{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    font-size: 1em;
+}
+.last h5{
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    font-size: 1em;
+}
+.last img{
+    position: relative;
+}
+.last img:nth-last-of-type(1){
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+}
+.last img:nth-last-of-type(2){
+    position: absolute;
+    bottom: 15%;
+    right: 28%;
+}
